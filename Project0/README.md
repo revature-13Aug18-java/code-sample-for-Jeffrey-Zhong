@@ -10,5 +10,7 @@ Batch Repository
    <li> Users can add or subtract funds from an account       </li>
    <li> An account's balance cannot be negative       </li
   </ul>
+      
+      <br>
      
 Java application that takes in user input and uses JDBC to perform CRUD operations. Application is seperated into driver, service, and DAO layers to help modularization. DAO consists of all JDBC calls to an Oracle database hosted locally.
