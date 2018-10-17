@@ -7,7 +7,7 @@ https://github.com/sammyeang96/RecipeSuggestionApp
 <h3> Project 3 </h3>
 <h4> RideForce </h4>
 <p>
-Ride Force is a ride sharing app that allows Revature associates with no transportation to work find drivers within the area. The app consumes google maps API 
+Ride Force is a ride sharing app that allows Revature associates with no transportation to work, find drivers within the area. This app is meant to solve a company wide problem that many associates to not have vehicles or some sort of connection to people with vehicles. This is due to associates flying in from across the country. This app is not meant to register rides but to but the passenger and driver in contact through other 3rd party applications. The app consumes google maps API to determine the location of each driver. The app will then rank each driver based on a number of factors such as, distance, batch start time, batch end date and display that to the user. An associate is able to choose whether or not they have a car and can opt in or out anytime when being a driver.
   </p>
 <br>
 <h4> Business Rules </h4>
