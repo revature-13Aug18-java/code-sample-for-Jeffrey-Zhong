@@ -12,11 +12,15 @@ Ride Force is a ride sharing app that allows Revature associates with no transpo
 <br>
 <h4> Business Rules </h4>
 <ul> 
-   <li> Users can input ingredients into their pantry </li>
-   <li> Users can search for recipes based on whats inside their pantry       </li>
-   <li> Users can manually search for recipes with a certain ingredients using the search bar</li>
-   <li> Users can create an account to save the ingredients in their pantry</li>
-   <li> User can login and logout </li>
+   <li> Users can only create an account with a key from a trainer </li>
+    <li> Users can login to an account </li>
+   <li> User can register themselves as either a driver or a passenger </li>
+   <li> Drivers can register or update their car information</li>
+   <li> Drivers can update their contact information</li>
+   <li> Drivers can swtich to active or inactive</li>
+   <li> Passengers can see drivers in their area </li>
+   <li> Passengers can like or dislike drivers </li>
+   <li> Passengers can view driver's car and contact info </li>
   </ul>
   <br>
   <h4> Tech Stack </h4>
