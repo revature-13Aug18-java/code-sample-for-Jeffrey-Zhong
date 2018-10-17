@@ -43,5 +43,5 @@ Ride Force is a ride sharing app that allows Revature associates with no transpo
   </ul>
   <h4> Contribution </h4>
   <p>
-  Worked primarily in the Angular front-end and developed the database. In charge of creating API calls to retrieve recipes. Created multiple service methods that use the Spoonacular API to retrieve recipes, instructions, and a fun fact. Also worked on bug fixing and optimization for our code. 
+  The project was a batch-wide project consisting of a 3 different teams: DevOps, Front-End, and Microservice. The microservice team split into three more sub teams: Users, Matching, and maps. With only 1 week for the 1st sprint, we decided to prioritize roles based on our strengths. I worked on the DevOps team specifically on the RDS. My role was to create a relational database for each of the microservice teams. My role also required me to make the data within the database was consistant within the fields on the front-end and user service.
   </p>
