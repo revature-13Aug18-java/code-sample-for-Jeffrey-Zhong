@@ -45,3 +45,6 @@ Ride Force is a ride sharing app that allows Revature associates with no transpo
   <p>
   The project was a batch-wide project consisting of a 3 different teams: DevOps, Front-End, and Microservice. The microservice team split into three more sub teams: Users, Matching, and maps. With only 1 week for the 1st sprint, we decided to prioritize roles based on our strengths. I worked on the DevOps team specifically on the RDS. My role was to create a relational database for each of the microservice teams. My role also required me to make the data within the database was consistant within the fields on the front-end and user service.
   </p>
+  
+  ![alt text](https://github.com/revature-13Aug18-java/code-samples-for-Jeffrey-Zhong/blob/master/Database%20ERD/JPmorganDatabasepic.PNG)
+
