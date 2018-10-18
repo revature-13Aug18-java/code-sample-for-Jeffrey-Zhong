@@ -6,7 +6,6 @@ https://github.com/sammyeang96/RecipeSuggestionApp
 <p>
 Recapi is a recipe suggestion app allows users to find recipes to cook based on their current ingredients. Users select their current ingredients sends it to their "Pantry". The application will then build a query to be sent to the Spoonacular API which will return a list of recipies in a JSON format. The application will then display the recipe's picture, ingredients, and instruction. This app will possibly not use all the ingredients inputed and will instead will find recipies that have the most similiar ingredients.
   </p>
-<br>
 <h4> Business Rules </h4>
 <ul> 
    <li> Users can input ingredients into their pantry </li>
