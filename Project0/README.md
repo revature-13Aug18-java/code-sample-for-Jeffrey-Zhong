@@ -1,8 +1,8 @@
-Batch Repository
+
 
 
 <h3> Project 0 </h3>
-<h4> Employee Reimbursement application </h4>
+<h4> Java Banking Application </h4>
 <ul>
    <li> New users can create a user account      </li>
    <li> Users can log in and log out      </li>
