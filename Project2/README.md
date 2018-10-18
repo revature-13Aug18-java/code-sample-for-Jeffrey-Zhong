@@ -1,8 +1,6 @@
 <h5> Link to GitHub repo </h5>
 https://github.com/sammyeang96/RecipeSuggestionApp
 
-
-
 <h3> Project 2 </h3>
 <h4> Recapi </h4>
 <p>
@@ -17,7 +15,6 @@ Recapi is a recipe suggestion app allows users to find recipes to cook based on 
    <li> Users can create an account to save the ingredients in their pantry</li>
    <li> User can login and logout </li>
   </ul>
-  <br>
   <h4> Tech Stack </h4>
   <ul>  
    <li> Angular front-end using VSCode</li>
@@ -27,10 +24,9 @@ Recapi is a recipe suggestion app allows users to find recipes to cook based on 
    <li> Java Maven project</lif>
    <li> AWS hosted Oracle database  </li>
   </ul>
-  <br>
   <h4> Contribution </h4>
   <p>
-  Worked primarily in the Angular front-end and developed the database. In charge of creating API calls to retrieve recipes. Created multiple service methods that use the Spoonacular API to retrieve recipes, instructions, and a fun fact. Also worked on bug fixing and optimization for our code. 
+ I worked primarily in the Angular front-end and database development portions of the project. I was in charge of creating all the API calls to retrieve information from 3rd party sites. I created multiple service methods that use the Spoonacular and Edimam API to retrieve recipes, and instructions. Also worked on developing the front end methods to display information to the user as well as bugfixing/optimization. 
   </p>
   
 
