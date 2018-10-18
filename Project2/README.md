@@ -32,6 +32,10 @@ Recapi is a recipe suggestion app allows users to find recipes to cook based on 
   <p>
   Worked primarily in the Angular front-end and developed the database. In charge of creating API calls to retrieve recipes. Created multiple service methods that use the Spoonacular API to retrieve recipes, instructions, and a fun fact. Also worked on bug fixing and optimization for our code. 
   </p>
+  
+  ![alt text](https://gyazo.com/c0dba13baec745eaa58a267d00aefd25)
+
+ 
 
   
   
