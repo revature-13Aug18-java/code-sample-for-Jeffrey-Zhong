@@ -1,6 +1,8 @@
 
-<h5> Link to GitHub repo </h5>
-https://github.com/sammyeang96/RecipeSuggestionApp
+<h5> Link to GitHub User service repo </h5> https://github.com/revaturelabs/rideshare-user-service
+<h5> Link to GitHub Matching service repo </h5> https://github.com/revaturelabs/rideshare-matching-service
+<h5> Link to GitHub Map service repo </h5> https://github.com/revaturelabs/rideshare-map-service
+<h5> Link to GitHub Map service repo </h5> https://github.com/revaturelabs/rideshare-client
 
 
 
