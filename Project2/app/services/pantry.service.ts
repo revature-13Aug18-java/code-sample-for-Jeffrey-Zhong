@@ -19,6 +19,7 @@ export class PantryService {
 
   constructor(private authService: AuthService, private handleArrays: HandleArraysService) { }
 
+  //takes a comma seperated String from the database and converts it to a array of id's
   unpackUserPantryArray( ingString: string) {
     let array = ingString.split(',');
     if (array[0] === '9000') {
@@ -48,7 +49,7 @@ export class PantryService {
 //   console.log(this.ingredient);
 //   format
 // };
-
+  //Maps the ids to ingredient models and holds the ingredients in the userPantryIngredients
   findPantry() {
     this.userPantryIngredients = [];
     for (let i = 0; i < this.userPantryIngredientIds.length; i++) {
@@ -56,7 +57,7 @@ export class PantryService {
     }
   }
 
-
+  //Used 
   addUserIngredientsToMainArray() {
     for(let i = 0; i < this.userPantryIngredients.length;i++ ){
       this.ingredient.push(this.userPantryIngredients[i])
