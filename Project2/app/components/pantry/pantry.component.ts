@@ -26,6 +26,8 @@ export class PantryComponent implements OnInit {
 
   }
 
+  //splices the ingredient from the users pantry and sends it back to the category fields. Finds the category of the ingredient
+  //and sends it to the apporiate array.
   removeItemFromPantry(ingredient: Ingredient) {
     let cat = ingredient.category;
     this.pantryService.ingredient.splice(this.pantryService.ingredient.indexOf(ingredient, 0), 1);
@@ -68,7 +70,7 @@ export class PantryComponent implements OnInit {
   // }
   
   }
-
+  //Updates the users Database pantry based on what they have currently in their pantry
   updatePantry(databasestring) {
     this.ingredient = this.pantryService.ingredient;
     this.searchAlgorithmService.searchPantryRecipes(this.ingredient).subscribe(
@@ -82,7 +84,7 @@ export class PantryComponent implements OnInit {
     this.authService.intermediaryFunctionForUpdatePantry(databasestring).subscribe(data => data);
   }
 
-  // to be used to sort the pantry items
+  // Sorts the pantry
   public sortIngredients() {
     this.ingredient.sort(function (a, b) {
       if (a.name < b.name) {
@@ -106,7 +108,7 @@ export class PantryComponent implements OnInit {
     });
     return arr;
   }
-
+      //Calls the API calling service to retrieve recipes based on given list of ingredients.
   addSelectionToArray() {
     this.ingredient = this.pantryService.ingredient;
     this.searchAlgorithmService.searchPantryRecipes(this.ingredient).subscribe(
@@ -117,6 +119,7 @@ export class PantryComponent implements OnInit {
     this.router.navigate(['feature']);
   }
 
+  //Turns the current ingredients in the pantry into a comma seperated String to be send to the Database.
   turnArrayToString() {
     this.databasestring = String(this.pantryService.ingredient[0].id);
     for (let i = 1; i < this.pantryService.ingredient.length; i++) {
